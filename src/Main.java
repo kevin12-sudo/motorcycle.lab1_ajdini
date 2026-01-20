@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args){
         Motorcycle m1 = new Motorcycle("RED");
-        System.out.print(m1.getColor());
+        System.out.println(m1.getColor());
 
         Motorcycle m2 = new Motorcycle("BLUE");
-        System.out.print(m2.getColor());
+        System.out.println(m2.getColor());
+
+        Motorcycle m3 = new Motorcycle("GREEN");
+        System.out.println(m3.getColor());
     }
 }
