@@ -1,24 +1,24 @@
 public class Engine {
-    private String size;
+    private String cc;
     private String hp;
 
 
-    public Engine(String size){
-        this.size = size;
+    public Engine (String cc){
+        this.cc = cc;
     }
 
-    public Engine(String size, String hp){
-        this.size = size;
+    public Engine(String cc, String hp){
+        this.cc = cc;
         this.hp = hp;
 
     }
 
-    public void setSIZE(String size1){
-        this.size = size1;
+    public void setCC(String cc1){
+        this.cc = cc1;
     }
 
-    public String getSIZE(){
-        return this.size;
+    public String getCC(){
+        return this.cc;
     }
 
     public void setHP(String hp1){
