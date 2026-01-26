@@ -9,15 +9,15 @@
  * Rev: 1/25/2026
 
  */
-// frame class
-    // kevin ajdini
+/**frame class
+    kevin ajdini */
 class Frame {
     private Materials material;
-// constructor constructs what is the frame and what it's made out of
+/** constructor constructs what is the frame and what it's made out of */
     public Frame(Materials material) {
         this.material = material;
     }
-// getter gets the user input and allows it to register
+/** getter gets the user input and allows it to register */
     public Materials getFrame() {
         return material;
     }

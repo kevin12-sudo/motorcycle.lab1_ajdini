@@ -9,8 +9,8 @@
  * Rev: 1/25/2026
 
  */
-// materials
+/** materials*/
 public enum Materials {
-    // materials for motorcycle
+    /** materials for motorcycle*/
     STEEL, CARBON_FIBER, TUNGSTEN, PLASTIC
 }

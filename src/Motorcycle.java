@@ -9,17 +9,17 @@
  * Rev: 1/25/2026
 
  */
-//motorcycle class
-// kevin ajdini
+/**motorcycle class*/
+/** kevin ajdini*/
 public class Motorcycle {
     private String color;
 
-// constructor
+/** constructor*/
     public Motorcycle(String color1) {
         this.color = color1;
     }
 
-// getter
+/** getter*/
     public String getColor() {
         return this.color;
     }

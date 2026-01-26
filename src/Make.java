@@ -9,12 +9,12 @@
  * Rev: 1/25/2026
 
  */
-// make class
-    //kevin ajdini
+/**make class
+    kevin ajdini */
 public class Make {
     private String brand;
     private String model;
-// constructor
+/** constructor */
     public Make(String brand){
         this.brand = brand;
     }
@@ -22,7 +22,7 @@ public class Make {
         this.brand = brand;
         this.model = model;
     }
-// setter
+/** setter*/
     public void setModel(String model1){
         this.model = model1;
     }
@@ -30,7 +30,7 @@ public class Make {
     public void setBrand(String brand1){
         this.brand = brand1;
     }
-    // getter
+    /** getter*/
     public String getBrand(){
         return this.brand;
     }

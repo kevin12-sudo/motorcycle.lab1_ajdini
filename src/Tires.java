@@ -9,17 +9,17 @@
  * Rev: 1/25/2026
 
  */
-// tire class
-    // kevin ajdini
+/** tire class
+     kevin ajdini*/
 public class Tires {
     private String size;
     private String brand;
-    // constructors
+    /** constructors*/
     public Tires (String size, String brand){
         this.size = size;
         this.brand = brand;
     }
-    // setters
+    /** setters*/
     public void setBrand(String brand2){
         this.brand = brand2;
     }
@@ -27,7 +27,7 @@ public class Tires {
         this.size = size2;
 
     }
-    // getter
+    /** getter*/
     public String getBrand(){
         return this.brand;
     }
