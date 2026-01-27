@@ -12,14 +12,16 @@
 /**frame class
     kevin ajdini */
 class Frame {
-    private Materials material;
-/** constructor constructs what is the frame and what it's made out of */
-    public Frame(Materials material) {
-        this.material = material;
-    }
-/** getter gets the user input and allows it to register */
-    public Materials getFrame() {
-        return material;
+        private Material material;
+
+        /** constructor constructs what is the frame and what it's made out of */
+        public Frame(Material material) {
+            this.material = material;
+        }
+
+        /** getter gets the material */
+        public Material getMaterial() {  // Changed from getFrame()
+            return material;
+        }
     }
 
-}

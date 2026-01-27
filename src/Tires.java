@@ -15,7 +15,7 @@ public class Tires {
     private String size;
     private String brand;
     /** constructors*/
-    public Tires (String size, String brand){
+    public Tires (String size){
         this.size = size;
         this.brand = brand;
     }
